@@ -33,7 +33,7 @@ function findValue(array, values) {
 
     for (let i = 0; i < length; i++) {
         for (let j = 0; j < numArgs; j++) {
-            if (array[i] == values[j]) {
+            if (array[i] === values[j]) {
                 onList[i] = true;
             }
         }
